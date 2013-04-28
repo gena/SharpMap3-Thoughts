@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoAPI.Extensions", "GeoAPI.Extensions\GeoAPI.Extensions.csproj", "{908177D0-6479-4E0F-A79E-2E692E6C461E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetTopologySuite.Extensions", "NetTopologySuite.Extensions\NetTopologySuite.Extensions.csproj", "{84AA26BC-0F3A-495C-A6F7-111C45D4B13A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetTopologysuite.Extensions.Tests", "NetTopologysuite.Extensions.Tests\NetTopologysuite.Extensions.Tests.csproj", "{F237771F-2645-4F00-911B-20B92AE8798C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{908177D0-6479-4E0F-A79E-2E692E6C461E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{908177D0-6479-4E0F-A79E-2E692E6C461E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{908177D0-6479-4E0F-A79E-2E692E6C461E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{908177D0-6479-4E0F-A79E-2E692E6C461E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84AA26BC-0F3A-495C-A6F7-111C45D4B13A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84AA26BC-0F3A-495C-A6F7-111C45D4B13A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84AA26BC-0F3A-495C-A6F7-111C45D4B13A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84AA26BC-0F3A-495C-A6F7-111C45D4B13A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F237771F-2645-4F00-911B-20B92AE8798C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F237771F-2645-4F00-911B-20B92AE8798C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F237771F-2645-4F00-911B-20B92AE8798C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F237771F-2645-4F00-911B-20B92AE8798C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
