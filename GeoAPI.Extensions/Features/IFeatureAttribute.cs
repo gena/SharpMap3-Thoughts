@@ -6,6 +6,11 @@ namespace GeoAPI.Extensions.Features
     {
         string Name { get; set; }
         string Description { get; set; }
-        Type ValueType { get; set; }
+        //  Type ValueType { get; set; }
+    }
+
+    public interface IFeatureAttribute<T> : IFeatureAttribute
+    {
+        T Value { get; set; }
     }
 }
