@@ -50,6 +50,7 @@
   <ItemGroup>
     <Compile Include="DataSources\MemoryFeatureDataSource.cs" />
     <Compile Include="Features\Feature.cs" />
+    <Compile Include="Features\FeatureAttribute.cs" />
     <Compile Include="Features\FeatureAttributeDictionary.cs" />
     <Compile Include="Features\FeatureDataSource.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
