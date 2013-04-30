@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 
 namespace GeoAPI.Extensions.Features
 {
-    public interface IFeatureAttributeDictionary : IDictionary<string, object>
+    public interface IFeatureAttributeDictionary : IDictionary<string, IFeatureAttribute>
     {
-        IFeatureDataSource DataSource { get; }
     }
 }

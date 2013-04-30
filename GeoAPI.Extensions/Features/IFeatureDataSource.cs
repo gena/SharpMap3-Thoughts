@@ -10,6 +10,7 @@ namespace GeoAPI.Extensions.Features
         /// </summary>
         IQueryable<IFeature> Features { get; set; }
 
-        IList<IFeatureAttribute> FeatureAttributes { get; }
+        // IList<IFeatureAttribute> FeatureAttributes { get; } 
+
     }
 }

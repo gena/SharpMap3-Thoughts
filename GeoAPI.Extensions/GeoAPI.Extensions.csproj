@@ -43,6 +43,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Features\FeatureAttributeAttribute.cs" />
+    <Compile Include="Features\IAttributeValue.cs" />
+    <Compile Include="Features\ICanSetValue.cs" />
     <Compile Include="Features\IFeature.cs" />
     <Compile Include="Features\IFeatureAttribute.cs" />
     <Compile Include="Features\IFeatureAttributeDictionary.cs" />

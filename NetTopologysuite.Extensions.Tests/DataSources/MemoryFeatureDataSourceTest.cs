@@ -36,8 +36,8 @@ namespace NetTopologySuite.Extensions.Tests.DataSources
 
         public void CreateUsingFeatureClass()
         {
-            var city1 = new City { Name = "Amsterdam", Population = 1500000 };
-            var city2 = new City { Name = "The Hague", Population = 9000000 };
+            var city1 = new City { Geometry = new Point(0, 0, 0), Name = "Amsterdam", Population = 1500000 };
+            var city2 = new City { Geometry = new Point(1, 1, 1), Name = "The Hague", Population = 9000000 };
 
             var cities = new [] { city1, city2 };
 
